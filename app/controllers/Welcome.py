@@ -7,13 +7,8 @@ class Welcome(Controller):
         self.load_model('Course')
         self.db = self._app.db
 
-
-       
-        
-
-
-
-   
-    def index(self):
-        return self.load_view('index.html')
-
+	def index(self):
+        return "hello world"
+		
+	def hello(self):
+		return "hello world"
