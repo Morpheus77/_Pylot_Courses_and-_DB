@@ -8,7 +8,7 @@ class Welcome(Controller):
         self.db = self._app.db
 
 	def index(self):
-        return "hello world"
+		return "hello world"
 		
 	def hello(self):
 		return "hello world"
